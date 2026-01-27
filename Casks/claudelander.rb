@@ -1,13 +1,13 @@
 cask "claudelander" do
-  version "2.2.4"
+  version "2.2.5"
 
   on_intel do
-    sha256 "eb2bc203f79a809935f0746bd020bb3a1c10ca7cad1a0651d9f5f110ae09928c"
+    sha256 "0af4c342d5c6ab4d32616329763fbe07de5a286f5debbc36da8c36747829e7bc"
     url "https://github.com/William-Long-II/claudelander/releases/download/v#{version}/ClaudeLander-#{version}-mac.zip"
   end
 
   on_arm do
-    sha256 "c7eda2e4c4886377505811034a67ba2f6af3eee96c7c4f1e60d6212372ddeef0"
+    sha256 "036d1f4466a2ef57c0f62c03d7f6aee07e5036330e32897f85b650d525f48d8d"
     url "https://github.com/William-Long-II/claudelander/releases/download/v#{version}/ClaudeLander-#{version}-arm64-mac.zip"
   end
 
